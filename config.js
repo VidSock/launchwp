@@ -9,7 +9,7 @@ const config = {
   description: `Twilightscapes`,
   author: `Twilightscapes`,
   twitter: `toddlambert`,
-  wordPressUrl: `https://twilightscapes.com`,
+  wordPressUrl: `https://launchlamp.com/twilightgatsby`,
   siteUrl: `https://twilightscapes.com`,
   dynamicComments: true,
   gaTrackingId: 'UA-140479230-1',
