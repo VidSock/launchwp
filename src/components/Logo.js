@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import siteLogo from '../images/site-logo.png';
+import siteLogo from '../images/twilightscapes-logo.png';
 
 const Logo = ( { data } ) => {
 
@@ -8,7 +8,7 @@ const Logo = ( { data } ) => {
     <Link to="/" className="h-10 overflow-hidden block" rel="home" itemProp="url">
       <img
         src={siteLogo}
-        alt="Site Logo"
+        alt="Twilightscapes Logo"
         width="150"
         height="150"
         className="h-full w-auto block"
