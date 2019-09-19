@@ -10,31 +10,47 @@ const Contact = (props) => (
           <title>Contact Us | Urban Fetish - Abandoned Urbex Urban Exploration Photos and Locations</title>
 	  </Helmet>
 	  
+<h1>Contact Twilightscapes</h1>
 	  
-        <div className="inner">
+	  
+        <div className="inner1">
+        
             <section>
                 <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 
-                    <input type="hidden" name="bot-field" />
+<input type="hidden" name="bot-field" />
 <input type="hidden" name="form-name" value="contact"/>
+
+<div className="form">
                     <div className="field half first">
-                        <label htmlFor="name">Name</label>
-                        <input type="text" name="name" id="name" required/>
+                        
+                        <input type="text" name="name" id="name" placeholder="Name" required/>
+                        
+                        <input type="text" name="email" id="email" placeholder="Email" required/>
                     </div>
-                    <div className="field half">
-                        <label htmlFor="email">Email</label>
-                        <input type="text" name="email" id="email" required/>
+                    
+                    
+                    <div className="field half right">
+           
+            <textarea name="message" id="message" rows="6" placeholder="Message" required></textarea>
                     </div>
-                    <div className="field">
-                        <label htmlFor="message">Message</label>
-                        <textarea name="message" id="message" rows="6" required></textarea>
                     </div>
-                    <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" /></li>
-                        <li><input type="reset" value="Clear" /></li>
-                    </ul>
+                    
+                    
+<div className="actionable"><input type="submit" value="Send Message" className="special" /></div>
+                        
+                    
                 </form>
             </section>
+            
+            
+
+
+  
+            
+            
+            
+            
 
         </div>
     </Layout>
