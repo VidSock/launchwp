@@ -706,6 +706,11 @@ p.link-more {
   .mobmenu {
     display: block;
     color: #fff; }
+  .headroom--unpinned .back-to-top {
+    bottom: 30px;
+    padding: 0.3rem 0.3rem 0 0.3rem;
+    font-size: 240%;
+    border-radius: 8px 0 0 8px; }
   .mainmenu {
     text-align: center; }
   .mainmenu span {
