@@ -37,7 +37,6 @@ img:not([src*=".svg"]), video {
   width: 80px;
   height: 16px;
   background: #333;
-  margin: 0 0 0 10px;
   position: relative;
   border-radius: 50px;
   box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
@@ -132,7 +131,6 @@ border-radius: 8px 0 0 0;
 .headroom--unfixed .back-to-top, .headroom--pinned .back-to-top{display: none;}
 
 .themer {display:flex; justify-content: center; position:absolute; z-index:1; top:64px; right:10px; font-size: 60%; vertical-align:center; background-color:#222; padding:.2rem .3rem; border-radius: 4px; color:#fff;/*  box-shadow: 0px 0px 1px 1px black; */}
-.themer span{padding-top: 2px;}
 .button-switcher{border:1px solid;}
 
 

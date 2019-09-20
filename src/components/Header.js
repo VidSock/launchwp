@@ -31,7 +31,7 @@ const Header = () => {
 <a title="Back To Top" href="#site-header" className="back-to-top fa-chevron-circle-up fa-4x shadow"><FaArrowAltCircleUp /></a>
     </Headroom>
     
-    <div className="themer"><span>Theme:</span> <ThemeToggler>
+    <div className="themer"><ThemeToggler>
         {({ theme, toggleTheme }) => (
           <div className="themeSlide">
             <input
