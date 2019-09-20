@@ -33,6 +33,8 @@ img:not([src*=".svg"]), video {
 [data-theme="dark"] .themer span:before {content: "Light ";}
 */
 
+* {-webkit-appearance: none;}
+
 .themeSlide {
   width: 80px;
   height: 16px;

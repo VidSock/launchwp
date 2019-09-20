@@ -287,6 +287,9 @@ img:not([src*=".svg"]), video {
 [data-theme="light"] .themer span:before {content: "Dark ";}
 [data-theme="dark"] .themer span:before {content: "Light ";}
 */
+* {
+  -webkit-appearance: none; }
+
 .themeSlide {
   width: 80px;
   height: 16px;
