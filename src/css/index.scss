@@ -33,7 +33,16 @@ img:not([src*=".svg"]), video {
 [data-theme="dark"] .themer span:before {content: "Light ";}
 */
 
-* {-webkit-appearance: none;}
+
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+.input-checkbox {
+-webkit-appearance: none;
+// border-radius: 0;
+}
 
 .themeSlide {
   width: 80px;

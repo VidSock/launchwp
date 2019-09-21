@@ -287,7 +287,12 @@ img:not([src*=".svg"]), video {
 [data-theme="light"] .themer span:before {content: "Dark ";}
 [data-theme="dark"] .themer span:before {content: "Light ";}
 */
-* {
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+.input-checkbox {
   -webkit-appearance: none; }
 
 .themeSlide {
